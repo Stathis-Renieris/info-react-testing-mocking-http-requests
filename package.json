@@ -1,5 +1,5 @@
 {
-  "name": "testing-react-applications-workshop",
+  "name": "info-react-testing-mocking-http-requests",
   "version": "1.0.0",
   "private": true,
   "engines": {
@@ -9,7 +9,9 @@
   "scripts": {
     "build": "react-scripts build",
     "start": "react-scripts start",
-    "test": "react-scripts test"
+    "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "dependencies": {
@@ -26,6 +28,7 @@
     "@types/react": "^18.0.14",
     "@types/react-dom": "^18.0.5",
     "faker": "^5.5.3",
+    "gh-pages": "^5.0.0",
     "msw": "^0.42.1",
     "react-scripts": "^5.0.1"
   },
@@ -39,7 +42,7 @@
       "react-app"
     ]
   },
-  "homepage": "http://localhost",
+  "homepage": "https://Stathis-Renieris.github.io/info-react-testing-mocking-http-requests",
   "browserslist": [
     ">0.2%",
     "not dead",
