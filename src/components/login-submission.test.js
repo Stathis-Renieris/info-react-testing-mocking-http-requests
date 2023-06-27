@@ -13,7 +13,7 @@ import { build, fake } from "@jackfranklin/test-data-bot";
 import { rest } from "msw";
 import { setupServer } from "msw/node";
 import { handlers } from "../test/server-handlers";
-import LoginSubmission from "../components/login-submission";
+import LoginSubmission from "./login-submission";
 
 const buildLoginForm = build({
   fields: {

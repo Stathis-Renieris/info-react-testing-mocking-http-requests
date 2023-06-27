@@ -9,9 +9,7 @@
   "scripts": {
     "build": "react-scripts build",
     "start": "react-scripts start",
-    "test": "react-scripts test",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "test": "react-scripts test"
   },
   "keywords": [],
   "dependencies": {
@@ -28,7 +26,6 @@
     "@types/react": "^18.0.14",
     "@types/react-dom": "^18.0.5",
     "faker": "^5.5.3",
-    "gh-pages": "^5.0.0",
     "msw": "^0.42.1",
     "react-scripts": "^5.0.1"
   },
@@ -42,7 +39,7 @@
       "react-app"
     ]
   },
-  "homepage": "https://Stathis-Renieris.github.io/info-react-testing-mocking-http-requests",
+  "homepage": "http://localhost",
   "browserslist": [
     ">0.2%",
     "not dead",
