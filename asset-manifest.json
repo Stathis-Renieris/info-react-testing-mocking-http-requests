@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/info-react-testing-mocking-http-requests/static/css/main.84f2b814.css",
+    "main.js": "/info-react-testing-mocking-http-requests/static/js/main.e22c13f4.js",
+    "index.html": "/info-react-testing-mocking-http-requests/index.html",
+    "main.84f2b814.css.map": "/info-react-testing-mocking-http-requests/static/css/main.84f2b814.css.map",
+    "main.e22c13f4.js.map": "/info-react-testing-mocking-http-requests/static/js/main.e22c13f4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84f2b814.css",
+    "static/js/main.e22c13f4.js"
+  ]
+}
